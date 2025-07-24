@@ -19,6 +19,15 @@
 .font-orange {
   color: #e95a08;
 }
+
+.btn-primary {
+  background-color: #e95a08;
+  color: white;
+  padding: 10px 80px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+}
 /* Specific Styles */
 
 .nav-item {
@@ -46,6 +55,7 @@
 
 .banner {
   margin: auto 150px;
+  margin-top: 8rem;
   justify-content: center;
   align-items: center;
 }
@@ -57,4 +67,39 @@
 .banner-description {
   color: rgba(0, 0, 0, 0.5);
   max-width: 35.6rem;
+}
+
+.item-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.item-description {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.item-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  gap: 3rem;
+}
+.card {
+  max-width: 17rem;
+  text-align: center;
+  max-width: 46rem;
+}
+
+.item-name,
+.item-price {
+  font-size: 1.25rem;
+}
+
+.item-name {
+  font-weight: 500;
+}
+
+.flower-items {
+  text-align: center;
+  margin: auto 8rem;
 }
