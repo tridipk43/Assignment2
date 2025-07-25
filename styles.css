@@ -85,9 +85,9 @@
   gap: 3rem;
 }
 .card {
-  max-width: 17rem;
+  /* max-width: 17rem; */
   text-align: center;
-  max-width: 46rem;
+  /* max-width: 46rem; */
 }
 
 .item-name,
@@ -97,9 +97,199 @@
 
 .item-name {
   font-weight: 500;
+  margin-bottom: 0;
 }
 
+.item-price {
+  margin-top: 0;
+}
 .flower-items {
   text-align: center;
   margin: auto 8rem;
+}
+
+.lover {
+  justify-content: center;
+  /* align-items: center; */
+  margin: 3rem 150px;
+  gap: 3.8rem;
+  max-height: min-content;
+  max-width: 1140px;
+}
+
+.lover-title {
+  margin: 0;
+}
+
+.lover-left,
+.lover-right {
+  width: 50%;
+}
+
+.lover-right {
+  margin: 3rem auto;
+}
+.lover-left {
+  margin: 1rem auto;
+}
+
+.list {
+  margin-left: 0;
+}
+
+.badge {
+  max-width: 280px;
+  max-height: 280px;
+  margin: -185px;
+  margin-bottom: 445px;
+}
+
+.newsletter {
+  background-image: url(./B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 576px;
+  border: 0;
+}
+
+.newsletter-title {
+  color: #ffffff;
+}
+.inp {
+  justify-content: center;
+  align-content: center;
+}
+
+.inp input {
+  padding: 5px 0 5px 5px;
+  width: 40rem;
+}
+
+.two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.two-left,
+.two-right {
+  flex-direction: column;
+  gap: 19px;
+}
+
+.two-left a,
+.two-right a {
+  text-decoration: none;
+  color: rgba(107, 114, 128, 1);
+}
+
+.one-discription {
+  color: rgba(0, 0, 0, 0.5);
+  max-width: 259px;
+}
+
+.three div {
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-top: -5rem;
+}
+
+footer {
+  gap: 13rem;
+  justify-content: center;
+}
+@media screen and (max-width: 576px) {
+  .nav-item {
+    justify-content: center;
+    align-items: center;
+    gap: 6.7rem;
+    margin: auto;
+  }
+
+  .display_none {
+    display: none;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .banner-right img {
+    margin: auto;
+    width: 100%;
+  }
+
+  .flower-items {
+    text-align: center;
+    margin: auto;
+  }
+
+  .item-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 17px 0;
+  }
+
+  .lover {
+    justify-content: center;
+    /* align-items: center; */
+    margin: 2rem auto 1rem auto;
+    flex-direction: column;
+  }
+
+  .lover-left img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .lover-left,
+  .lover-right {
+    width: 100%;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    background-size: 100% 60%;
+  }
+
+  .newsletter-title {
+    font-size: 2rem;
+  }
+  .inp {
+    justify-content: center;
+    align-content: center;
+  }
+
+  .inp input {
+    padding: 5px 0 5px 5px;
+    width: 100%;
+  }
+
+  footer {
+    gap: 5rem;
+    flex-direction: column;
+    margin-top: -1rem;
+  }
+
+  .two {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -3rem;
+  }
 }
