@@ -272,6 +272,7 @@
 
 footer {
   gap: 13rem;
+  margin-top: 5px;
   justify-content: center;
 }
 @media screen and (max-width: 576px) {
@@ -399,5 +400,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-top: -3rem;
+  }
+  .two-right {
+    margin-top: 19px;
   }
 }
