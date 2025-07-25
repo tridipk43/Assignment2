@@ -8,12 +8,24 @@
 
 /* All shared styles */
 
+.border-round {
+  border-radius: 20px;
+}
+
 .text-gray {
   color: #8987a1;
 }
 
 .display-flex {
   display: flex;
+}
+
+.display-white {
+  color: white;
+}
+
+.font-big {
+  font-size: 1.5rem;
 }
 
 .font-orange {
@@ -144,6 +156,65 @@
   margin-bottom: 445px;
 }
 
+.collage {
+  text-align: center;
+  justify-content: center;
+}
+
+.collage-title {
+  margin-bottom: 1rem;
+}
+
+.decrip-div {
+  justify-content: center;
+}
+
+.collage-discription {
+  text-align: center;
+  max-width: 55rem;
+}
+
+.cards {
+  gap: 2rem;
+}
+
+.cards-left {
+  gap: 20px;
+}
+
+.cards-left {
+  flex-direction: column;
+  width: 35%;
+  height: 100%;
+}
+
+.cards-right {
+  /* height: 100%; */
+}
+
+.box {
+  position: relative;
+}
+
+.cards-1-div {
+  top: -9rem;
+  margin-bottom: -6.5rem;
+}
+
+.cards-2-div {
+  top: -9rem;
+}
+
+.cards-right-div {
+  top: -16rem;
+  margin: 0;
+  margin-bottom: -3rem;
+}
+
+.img-blur {
+  filter: brightness(50%);
+}
+
 .newsletter {
   background-image: url(./B12A02-Responsive-Flowers/assets/news-letter-bg.png);
   background-repeat: no-repeat;
@@ -261,6 +332,43 @@ footer {
   .lover-left,
   .lover-right {
     width: 100%;
+  }
+
+  .collage {
+    width: 100%;
+    margin: auto;
+  }
+  .cards-left {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: -4rem;
+  }
+
+  .cards-left img {
+    width: 100%;
+  }
+
+  .cards-right img {
+    width: 100%;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .cards-1-div {
+    top: -11.5rem;
+    margin-bottom: -4rem;
+  }
+
+  .cards-2-div {
+    top: -11.5rem;
+  }
+
+  .cards-right-div {
+    top: -13rem;
+    margin: 0;
+    margin-bottom: -6rem;
   }
 
   .newsletter {
